@@ -22,10 +22,10 @@ export async function GET() {
         }
       }
     });
-  } catch (error: any) {
+  } catch (error) {
     return NextResponse.json({ 
       success: false,
-      error: error.message || String(error),
+      error: error instanceof Error ? error.message : String(error),
       timestamp: new Date().toISOString()
     }, { status: 500 });
   }
@@ -69,10 +69,10 @@ export async function POST() {
         categoriesCount: categories.length
       }
     });
-  } catch (error: any) {
+  } catch (error) {
     return NextResponse.json({ 
       success: false,
-      error: error.message || String(error)
+      error: error instanceof Error ? error.message : String(error)
     }, { status: 500 });
   }
 }
