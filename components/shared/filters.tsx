@@ -1,6 +1,5 @@
 
 import React from 'react'
-import { cn } from '@/lib/utils'
 import { Title } from './titile'
 import { FilterCheckbox } from './filter-checkbox'
 import { Input } from '../ui'

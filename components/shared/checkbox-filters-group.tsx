@@ -1,7 +1,6 @@
 'use client';
 import React, { useState } from 'react'
 import { FilterCheckbox, FilterChecboxProps } from './filter-checkbox';
-import { Input } from '../ui/input';
 
 type Item = FilterChecboxProps
 
@@ -12,8 +11,6 @@ interface Props {
     defaultItems: Item[]
     searchInputPlaceholder?: string;
     className?: string;
-    onChange?: (values: string[]) => void;
-    defaultValue?: string[];
 }
 
 export const CheckboxFiltersGroup: React.FC<Props> = ({
@@ -23,8 +20,6 @@ export const CheckboxFiltersGroup: React.FC<Props> = ({
     limit = 5,
     searchInputPlaceholder = 'Поиск...',
     className,
-    onChange,
-    defaultValue,
 }) => {
     const [showAll, setShowAll] = useState(false)
     const [searchValue, setSearchValue] = useState('')
