@@ -24,42 +24,42 @@ export default function Home() {
                   id: 1,
                   name: 'Чизбургер',
                   imageUrl: 'https://media.dodostatic.net/image/r:292x292/01959610e6cf7839af86f0043e12f829.avif',
-                  price: 550,
+
                   items: [{ price: 550 }]
                 },
                 {
                   id: 2,
                   name: 'Чизбургер',
                   imageUrl: 'https://media.dodostatic.net/image/r:292x292/01959610e6cf7839af86f0043e12f829.avif',
-                  price: 550,
+
                   items: [{ price: 550 }]
                 },
                 {
                   id: 3,
                   name: 'Чизбургер',
                   imageUrl: 'https://media.dodostatic.net/image/r:292x292/01959610e6cf7839af86f0043e12f829.avif',
-                  price: 550,
+
                   items: [{ price: 550 }]
                 },
                 {
                   id: 4,
                   name: 'Чизбургер',
                   imageUrl: 'https://media.dodostatic.net/image/r:292x292/01959610e6cf7839af86f0043e12f829.avif',
-                  price: 550,
+
                   items: [{ price: 550 }]
                 },
                 {
                   id: 5,
                   name: 'Чизбургер',
                   imageUrl: 'https://media.dodostatic.net/image/r:292x292/01959610e6cf7839af86f0043e12f829.avif',
-                  price: 550,
+
                   items: [{ price: 550 }]
                 },
                 {
                   id: 6,
                   name: 'Чизбургер',
                   imageUrl: 'https://media.dodostatic.net/image/r:292x292/01959610e6cf7839af86f0043e12f829.avif',
-                  price: 550,
+
                   items: [{ price: 550 }]
                 },
               ]} categoryId={1} />
@@ -69,42 +69,42 @@ export default function Home() {
                   id: 1,
                   name: 'Чизбургер',
                   imageUrl: 'https://media.dodostatic.net/image/r:292x292/01959610e6cf7839af86f0043e12f829.avif',
-                  price: 550,
+
                   items: [{ price: 550 }]
                 },
                 {
                   id: 2,
                   name: 'Чизбургер',
                   imageUrl: 'https://media.dodostatic.net/image/r:292x292/01959610e6cf7839af86f0043e12f829.avif',
-                  price: 550,
+
                   items: [{ price: 550 }]
                 },
                 {
                   id: 3,
                   name: 'Чизбургер',
                   imageUrl: 'https://media.dodostatic.net/image/r:292x292/01959610e6cf7839af86f0043e12f829.avif',
-                  price: 550,
+
                   items: [{ price: 550 }]
                 },
                 {
                   id: 4,
                   name: 'Чизбургер',
                   imageUrl: 'https://media.dodostatic.net/image/r:292x292/01959610e6cf7839af86f0043e12f829.avif',
-                  price: 550,
+
                   items: [{ price: 550 }]
                 },
                 {
                   id: 5,
                   name: 'Чизбургер',
                   imageUrl: 'https://media.dodostatic.net/image/r:292x292/01959610e6cf7839af86f0043e12f829.avif',
-                  price: 550,
+
                   items: [{ price: 550 }]
                 },
                 {
                   id: 6,
                   name: 'Чизбургер',
                   imageUrl: 'https://media.dodostatic.net/image/r:292x292/01959610e6cf7839af86f0043e12f829.avif',
-                  price: 550,
+
                   items: [{ price: 550 }]
                 },
               ]} categoryId={2} />
