@@ -37,38 +37,14 @@ export const Filters = () => {
                 defaultItems={[
                     {
                         text: 'Сырный Соус',
-                        value: 1
-                    },
-                    {
-                        text: 'Моцарелла',
-                        value: 2
-                    },
-                    {
-                        text: 'Чеснок',
-                        value: 3
-                    },
-                    {
-                        text: 'Майонез',
-                        value: 4
+                        value: "1"
                     },
                 
                 ]}
                 items={[
                     {
                         text: 'Сырный Соус',
-                        value: 1
-                    },
-                    {
-                        text: 'Моцарелла',
-                        value: 2
-                    },
-                    {
-                        text: 'Чеснок',
-                        value: 3
-                    },
-                    {
-                        text: 'Майонез',
-                        value: 4
+                        value: "1"
                     },
                 ]}
             />
