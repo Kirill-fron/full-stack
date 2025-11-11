@@ -16,8 +16,6 @@ export const categories = [
   },
 ];
 
-
-
 export const _ingredients = [
   {
     name: 'Сырный бортик',
@@ -111,8 +109,6 @@ export const _ingredients = [
   },
 ].map((obj, index) => ({ id: index + 1, ...obj }));
 
-
-
 export const products = [
   {
     name: 'Омлет с ветчиной и грибами',
@@ -122,11 +118,6 @@ export const products = [
   {
     name: 'Омлет с пепперони',
     imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EE94ECF33B0C46BA410DEC1B1DD6F8.webp',
-    categoryId: 2,
-  },
-  {
-    name: 'Кофе Латте',
-    imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EE7D61B0C26A3F85D97A78FEEE00AD.webp',
     categoryId: 2,
   },
   {

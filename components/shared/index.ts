@@ -1,3 +1,4 @@
+export { SearchInput } from './search-input';
 export { FilterCheckbox } from './filter-checkbox';
 export { Filters } from './filters'
 export { TopBar } from './top-bar';
