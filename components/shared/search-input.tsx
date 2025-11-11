@@ -24,12 +24,24 @@ export const SearchInput: React.FC<Props> = ({ className }) => {
     })
 
     useDebounce(() => {
-        Api.products.search(searchQuary).then(items => {
-            setProduct(items)
-        })
+        // eslint-disable-next-line @typescript-eslint/no-unused-expressions
+        async () => {
+            try {
+                const response = await Api.products.search(searchQuary)
+                setProduct(response)
+            } catch (error) {
+                console.error(error)
+            }
+        }
     },
         250,
         [searchQuary])
+
+    const onClickItem = () => {
+        setFocused(false)
+        serSearchQuary('')
+        setProduct([])
+    }
 
     return (
         <>
@@ -50,6 +62,7 @@ export const SearchInput: React.FC<Props> = ({ className }) => {
                     {
                         product.map((product) => (
                             <Link
+                                onClick={onClickItem}
                                 key={product.id}
                                 className='flex items-center gap-3  w-full px-3 py-2 hover:bg-primary/10 '
                                 href={`/product/${product.id}`}>
