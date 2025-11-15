@@ -1,3 +1,4 @@
+export { ProductImage } from './product-image';
 export { SearchInput } from './search-input';
 export { FilterCheckbox } from './filter-checkbox';
 export { Filters } from './filters'
@@ -8,4 +9,4 @@ export { Header } from './header';
 export { Categories } from './categories'
 export { SortPopup } from './sort-popup'
 export { RangeSlider } from './range-slider'
-export { ProductImage } from './product-image'
+export * from './modals'

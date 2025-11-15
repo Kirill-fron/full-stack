@@ -19,9 +19,7 @@ export default async function ProductPage({ params: { id } }: { params: { id: st
                     <Title text={product.name} size="md" className=" font-extrabold mb-1" />
                     <p className="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quos nulla, accusantium nesciunt </p>
 
-
                     <GroupVariants
-                        // selectedValue="2"
                         items={[
 
                             {
