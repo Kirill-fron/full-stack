@@ -7,4 +7,5 @@ export { Container } from './container';
 export { Header } from './header';
 export { Categories } from './categories'
 export { SortPopup } from './sort-popup'
-export {RangeSlider} from './range-slider'
+export { RangeSlider } from './range-slider'
+export { ProductImage } from './product-image'
